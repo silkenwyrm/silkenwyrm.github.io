@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Ultimate D&D Character Randomiser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="alpha-container">
+        <h1>.⋆ Actually Good D&D Character Randomiser ⋆⭒</h1>
+
+        <button id="global-randomise">RANDOMISE ALL!</button>
+
+        <div class="row">
+            <div class="column" id="statscolumn">
+                <div class="statbox"> <p id="STR">0</p><p>STRENGTH</p></div>
+                <div class="statbox" ><p id="INT">0</p><p>INTELLIGENCE</p></div>
+                <div class="statbox" ><p id="DEX">0</p><p>DEXTERITY</p></div>
+                <div class="statbox" ><p id="WIS">0</p><p>WISDOM</p></div>
+                <div class="statbox" ><p id="CON">0</p><p>CONSTITUTION</p></div>
+                <div class="statbox" ><p id="CHA">0</p><p>CHARISMA</p></div>
+                <button id="randomisestats">⚅</button>
+                
+            </div>
+
+            <div class="column" id="featurescolumn">
+                <button class="featurebutton" id="randomisespecies">⚅</button><p class="featuretitle">Species</p>         
+                <p class=featureresult id="dndspecies">blank</p>     
+                <button class="featurebutton" id="randomiseclass">⚅</button><p class="featuretitle">Class</p>
+                <p class=featureresult id="dndclass">blank</p>
+                <button class="featurebutton" id="randomisesubclass">⚅</button><p class="featuretitle">Subclass</p>
+                <p class=featureresult id="subclass">blank</p>
+                <button class="featurebutton" id="randomisebackground">⚅</button><p class="featuretitle">Background</p>
+                <p class=featureresult id="background">blank</p>
+                <button id="randomisealltheotherstuff">⚅</button>
+
+
+            </div>
+            <p id="update-info">Last Updated: November 18 <br> Subclasses added: Base Classes, Mage Hand Press Classes, Loot Tarvern Classes, some Nat19 Classes</p>
+            <h1 id="decor">✶⋆.˚ ٠࣪⭑</h1>
+        </div>
+        
+    </div>
+    <script src="dndrandomiser.js"></script>
+    
+</body>
+</html>
