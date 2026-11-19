@@ -1,6 +1,7 @@
 
 // Code by Aethersaurus the First
 // I live a very 'tismatic life
+
 //subclass var
 let subby = 'e';
 
@@ -183,7 +184,18 @@ const Inscriptorlgtr = [
 
 ];
 
+const PetalKnightlgtr = [
+    "Black Rose", "Camellia", "Coral Rose", "Dahlia", "Fox and Cub", "Foxglove", "Gardenia", "Hydrangea", "Morning Glory", "Osmanthus", "Pink Rose", "Red Spider Lily", "Sakura", "Winecup", "Astrophytum (zec)", "Zinnia (zec)", "Azalea (bbb)", "Cosmos (bbb)", "Marigold (bbb)"
+];
 
+const Rangerlgtr = [
+    "Beast Rider", "Dunestalker", "Grey Arrow", "Gun Dweller", "Radiant Archer", "Sea Dog", "Technoscope", "Velvet Knight (zec)", "Xenofactor (zec)"
+];
+
+const SwordSaintlgtr = [
+    "Gadabout", "Way of Blue Metal", "Way of the Dragonfly", "Way of the Eroded Lord", "Way of the Heavenbreaker", "Way of Kojirō", "Way of Kyruubi", "Way of Muramasa", "Way of musashi", "Way of Pendragon", "Way of the Snow White Sleeve", "Way of Tomoe", "Way of the Empyreal Order (zec)", "Way of the Grim Passenger (zec)", "Way of the Progenitor (zec)", "Way of the Beast Slayer (bbb)", "Way of Besheth (bbb)", "Way of the Butterfly (bbb)", "Way of Rust (bbb)"
+
+];
 //Button constants
 const randomiseclass = document.getElementById("randomiseclass");
 const randomisespecies = document.getElementById("randomisespecies");
@@ -275,6 +287,12 @@ function ranSubclass(){
         subclass = sRan(FramePilotzec);
     } else if (subby == 'Inscriptorlgtr'){
         subclass = sRan(Inscriptorlgtr);
+    } else if (subby =='PetalKnightlgtr'){
+        subclass = sRan(PetalKnightlgtr);
+    } else if (subby =='Rangerlgtr'){
+        subclass = sRan(Rangerlgtr);
+    } else if (subby =='SwordSaintlgtr'){
+        subclass = sRan(SwordSaintlgtr);
     }
 
     //if (document.getElementById("dndclass").innerHTML == "Bard"){
