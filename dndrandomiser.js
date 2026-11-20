@@ -254,7 +254,7 @@ window.onload= function() {
 //THE BEASTLY SUBCLASS FUNCTION
 function ranSubclass(){
     console.log('the subby is ' +subby);
-    let subclass = '𐔌՞. .՞𐦯 Subclass Unavailable';
+    let subclass = 'TwT Subclass Unavailable ';
     if (subby == 'Artificer'){
         subclass = sRan(Artificer);
     } else if (subby == 'Bard'){
