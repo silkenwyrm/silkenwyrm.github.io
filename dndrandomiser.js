@@ -196,6 +196,38 @@ const SwordSaintlgtr = [
     "Gadabout", "Way of Blue Metal", "Way of the Dragonfly", "Way of the Eroded Lord", "Way of the Heavenbreaker", "Way of Kojirō", "Way of Kyruubi", "Way of Muramasa", "Way of musashi", "Way of Pendragon", "Way of the Snow White Sleeve", "Way of Tomoe", "Way of the Empyreal Order (zec)", "Way of the Grim Passenger (zec)", "Way of the Progenitor (zec)", "Way of the Beast Slayer (bbb)", "Way of Besheth (bbb)", "Way of the Butterfly (bbb)", "Way of Rust (bbb)"
 
 ];
+
+const Inventorkcocac = [
+    "Gadgetsmith", "Golemsmith", "Infusionsmith", "Potionsmith", "Thundersmith", "Warsmith", "Fleshsmith", "Cursesmith", "Runesmith", "Relicsmith"
+
+];
+
+const Psionkcocac = [
+    "Awakened Mind (kcocac)", "Unleashed Mind (kcocac)", "Transcended Mind (kcocac)", "Shaper’s Mind (kcocac)", "Wandering Mind (kcocac)", "Elemental Mind (kcocac)", "Consuming Mind (kcocac)", "Knowing Mind (kcolal)"
+
+];
+
+const Occultistkcolal = [
+    "Tradition of the Witch (kcolal)", "Tradition of the Hedge Mage (kcolal)", "Tradition of the Oracle (kcolal)", "Tradition of the Shaman (kcolal)", "Tradition of the Spiritualist (kcolal)", "Tradition of the Voidwatcher (kcolal)"]
+;
+
+const Spellbladekcolal = [
+    "Battlemage (kcolal)", "Aether Blade (kcolal)", "Guardian (kcolal)", "Swiftblade (kcolal)", "Mage Hunter (kcolal)", "Rimeblade (kcolal)", "Flying Sword (kcolal)", "Spellfist (kcolal)"
+
+];
+
+const Wardenkcolal = [
+    "Elemental Soul (kcolal)", "Beasthide (kcolal)", "Elderheart (kcolal)", "Stoneblood (kcolal)", "Sunwatcher (kcolal)", "Ironbound (kcolal)", "Dreadwing (kcolal)", "Timetwister (kcolal)", "Astral Guardian (kcolal)", "Bone Binder (kcolal)"
+
+];
+
+const Warlordkcolal = [
+    "Commander’s Presence (kcolal)", "Noble’s Presence (kcolal)", "Packleader’s Presence (kcolal)", "Paragon’s Presence (kcolal)", "Tactician’s Presence (kcolal)", "Dancer’s Presence (kcolal)", "Dreadlord’s Presence (kcolal)"
+
+];
+
+const Warlordmare = ["Exemplar", "Tactician", "Warchief"];
+
 //Button constants
 const randomiseclass = document.getElementById("randomiseclass");
 const randomisespecies = document.getElementById("randomisespecies");
@@ -222,7 +254,7 @@ window.onload= function() {
 //THE BEASTLY SUBCLASS FUNCTION
 function ranSubclass(){
     console.log('the subby is ' +subby);
-    let subclass = 'Not Added Yet (TwT)';
+    let subclass = '𐔌՞. .՞𐦯 Subclass Unavailable';
     if (subby == 'Artificer'){
         subclass = sRan(Artificer);
     } else if (subby == 'Bard'){
@@ -293,6 +325,20 @@ function ranSubclass(){
         subclass = sRan(Rangerlgtr);
     } else if (subby =='SwordSaintlgtr'){
         subclass = sRan(SwordSaintlgtr);
+    } else if (subby =='Inventorkcocac'){
+        subclass = sRan(Inventorkcocac);
+    }else if (subby =='Psionkcocac'){
+        subclass = sRan(Psionkcocac);
+    }else if (subby =='Occultistkcolal'){
+        subclass = sRan(Occultistkcolal);
+    }else if (subby =='Spellbladekcolal'){
+        subclass = sRan(Spellbladekcolal);
+    }else if (subby =='Wardenkcolal'){
+        subclass = sRan(Wardenkcolal);
+    }else if (subby =='Warlordkcolal'){
+        subclass = sRan(Warlordkcolal);
+    }else if (subby =='Warlordmare'){
+        subclass = sRan(Warlordmare);
     }
 
     //if (document.getElementById("dndclass").innerHTML == "Bard"){
