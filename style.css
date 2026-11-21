@@ -181,3 +181,17 @@ p{
     border: 4px double #48341b;
     padding: 10px;
 }
+
+/* ========================================
+   MOBILE ADJUSTMENTS
+======================================== */
+
+@media (max-width: 650px) {
+
+    .row{
+        flex-direction: column;
+        display:flex;
+        gap: 15px;
+    }
+
+}
